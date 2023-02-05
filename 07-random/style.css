@@ -1,0 +1,16 @@
+.container {
+    margin: 160px auto;
+    max-width: 80%;
+}
+
+.randomWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.random_item {
+    width: 100px;
+    height: 100px;
+}

@@ -1,0 +1,17 @@
+.container {
+    margin: 160px auto;
+    max-width: 80%;
+}
+
+#video {
+    display: block;
+    margin: 0 auto;
+}
+
+.video_timing {
+    opacity: 0.6;
+    color: white;
+    position: absolute;
+    bottom: -15px;
+    right: 653px;
+}

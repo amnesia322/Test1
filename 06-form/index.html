@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <div class="form">
+        <form novalidate id="form">
+            <p class="form_item">
+                <label for="name">
+                    <span>Name:</span>
+                    <input type="text" id="name" name="name" required minlength="3" maxlength="30">
+                    <span class="error" aria-live="polite"></span>
+                </label>
+            </p>
+            <p class="form_item">
+                <label for="phone">
+                    <span>Phone:</span>
+                    <input type="text" id="phone" name="phone" required minlength="10" maxlength="15">
+                    <span class="error" aria-live="polite"></span>
+                </label>
+            </p>
+            <p class="form_item">
+                <label for="password">
+                    <span>Password:</span>
+                    <input type="password" id="password" name="password" required minlength="8" maxlength="40">
+                    <span class="error" aria-live="polite"></span>
+                </label>
+            </p>
+            <p class="form_item">
+                <label for="confirmPassword">
+                    <span>Confirm password:</span>
+                    <input type="password" id="confirmPassword" name="confirmPassword" required minlength="8">
+                    <span class="error" aria-live="polite"></span>
+                </label>
+            </p>
+
+            <button>Submit</button>
+        </form>
+    </div>
+</div>
+<script defer src="script.js"></script>
+</body>
+</html>
